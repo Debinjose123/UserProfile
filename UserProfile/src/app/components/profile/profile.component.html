@@ -1,3 +1,4 @@
+<body>
 <div class="container mt-5">
 
     <form class="content" [formGroup]="profileForm" (ngSubmit)="submitData()">
@@ -52,10 +53,11 @@
         
 
         <div class="mt-2 col-lg-12 col-12">
-            <button class="btn">Submit</button>
+            <button class="btn"[disabled]="profileForm.invalid">Submit</button>
 
         </div>
     </div>
     </form>
 
 </div>
+</body>
