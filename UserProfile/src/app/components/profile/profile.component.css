@@ -2,7 +2,7 @@
 {
     max-width:500px;
     margin:auto;
-    background-color:rgb(160, 76, 76);
+    background-color:rgb(111, 222, 230);
     padding: 2% 5%;
 }
 button
@@ -13,4 +13,8 @@ button
 button:hover
 {
     color: aliceblue;
+}
+.error
+{
+    color: rgb(167, 20, 20);
 }
